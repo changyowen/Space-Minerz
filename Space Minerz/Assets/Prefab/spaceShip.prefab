@@ -30,6 +30,82 @@ Transform:
   m_Father: {fileID: 2973049544296176739}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &250862933957244163
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6067268344507142332}
+  - component: {fileID: 7125065241014291659}
+  - component: {fileID: 2241896443994105806}
+  - component: {fileID: 2267985706080283995}
+  m_Layer: 6
+  m_Name: playerCollider
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6067268344507142332
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250862933957244163}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2973049544296176739}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &7125065241014291659
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250862933957244163}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4, y: 1.2, z: 1.49}
+  m_Center: {x: 0, y: 0.3, z: -0.75}
+--- !u!136 &2241896443994105806
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250862933957244163}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.6
+  m_Height: 3.17
+  m_Direction: 2
+  m_Center: {x: 0, y: 0.3, z: 0.3}
+--- !u!54 &2267985706080283995
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250862933957244163}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 84
+  m_CollisionDetection: 0
 --- !u!1 &2973049544296176740
 GameObject:
   m_ObjectHideFlags: 0
@@ -42,8 +118,6 @@ GameObject:
   - component: {fileID: 212182276}
   - component: {fileID: 212182278}
   - component: {fileID: 212182279}
-  - component: {fileID: 737419795066372779}
-  - component: {fileID: 5129015745667531623}
   m_Layer: 6
   m_Name: spaceShip
   m_TagString: Untagged
@@ -62,8 +136,9 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 3371188078711268649}
+  - {fileID: 6067268344507142332}
   - {fileID: 549596771}
+  - {fileID: 3371188078711268649}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -114,33 +189,6 @@ MonoBehaviour:
   laserBeam_obj: {fileID: 4434805902593520310, guid: 584e1a67c231d054b8ae71689e16280f, type: 3}
   gunPoint_transform: {fileID: 549596771}
   gunRefreshTime: 0.35
---- !u!136 &737419795066372779
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2973049544296176740}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.6
-  m_Height: 3.17
-  m_Direction: 2
-  m_Center: {x: 0, y: 0.3, z: 0.3}
---- !u!65 &5129015745667531623
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2973049544296176740}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 4, y: 1.2, z: 1.49}
-  m_Center: {x: 0, y: 0.3, z: -0.75}
 --- !u!1001 &2973049545314828994
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -158,7 +206,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 43aecf0bf585c9f4c88f8354227eb7d7, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 43aecf0bf585c9f4c88f8354227eb7d7, type: 3}
       propertyPath: m_LocalScale.x

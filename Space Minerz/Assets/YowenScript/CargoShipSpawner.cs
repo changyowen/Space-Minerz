@@ -34,11 +34,24 @@ public class CargoShipSpawner : MonoBehaviour
         //set destination
         cargoShipAgent.destination = destPosition_temp.position;
         //spawn escort
-
+        SpawnEscortShip(newCargoShip.transform , cargoShipScript.formation_transform);
     }
 
-    void SpawnEscortShip(Transform formation_transform)
+    void SpawnEscortShip(Transform _cargoShipTransform, Transform formation_transform)
     {
+        //get all children
+        List<Transform> childrenList = new List<Transform>();
+        for (int i = 0; i < formation_transform.childCount; i++)
+        {
+            childrenList.Add(formation_transform.GetChild(i));
+        }
 
+        for (int i = 0; i < childrenList.Count; i++)
+        {
+            GameObject newEscortShip = Instantiate(escortShip_obj, childrenList[i].position, Quaternion.identity) as GameObject;
+            EscortShipScript escortShipScript = newEscortShip.GetComponent<EscortShipScript>();
+            escortShipScript.cargoShipTransform = _cargoShipTransform;
+            escortShipScript.formationPos_transform = childrenList[i];
+        }
     }
 }

@@ -14,9 +14,9 @@ TagManager:
   - UI
   - playerCollider
   - enemyCollider
-  - laserCollider
+  - playerLaserCollider
+  - enemyLaserCollider
   - navMesh
-  - 
   - 
   - 
   - 
