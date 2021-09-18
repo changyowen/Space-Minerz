@@ -12,7 +12,7 @@ public class ShotBehavior : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.position += transform.rotation * transform.forward * Time.deltaTime * speed;
+		transform.position += /*transform.rotation * */transform.forward * Time.deltaTime * speed;
 	
 	}
 }

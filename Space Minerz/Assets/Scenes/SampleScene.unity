@@ -214,6 +214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   laserBeam_obj: {fileID: 4434805902593520310, guid: 584e1a67c231d054b8ae71689e16280f, type: 3}
   gunPoint_transform: {fileID: 549596771}
+  gunRefreshTime: 0.35
 --- !u!4 &549596771 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 549596771, guid: bd633ab87883d834cb0fede6d9bd5d87, type: 3}
