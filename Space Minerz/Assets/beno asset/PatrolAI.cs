@@ -15,7 +15,7 @@ public class PatrolAI : MonoBehaviour
     public float stopRange = 10f;
     public float gunRefreshTime = 0.8f;
 
-    bool isMove = false;
+    bool direction = false;
     bool isAlert = false;
     Transform playerTransform = null;
     float gunRefresh = 0;
@@ -24,7 +24,7 @@ public class PatrolAI : MonoBehaviour
 
     Vector3 StartPosition;
     Vector3 target;
-    Vector3[] PatrolPoint = new Vector3[8] {new Vector3(0,0,40), new Vector3(30, 0, 30), new Vector3(40, 0, 0), new Vector3(30, 0, -30), new Vector3(0, 0, -40), new Vector3(-30, 0, -30), new Vector3(-40, 0, 0), new Vector3(-30, 0, 30) };
+    Vector3[] PatrolPoint = new Vector3[5] {new Vector3(0,0,-100), new Vector3(30, 0, -50), new Vector3(-60, 0, 0), new Vector3(30, 0, 50), new Vector3(0, 0, 100) };
     private void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -58,14 +58,29 @@ public class PatrolAI : MonoBehaviour
         float dist = Vector3.Distance(transform.position, target);
         if (dist < .2)
         {
-            if (patrolCount < 8)
+            if(direction)
             {
-                patrolCount++;
+                if (patrolCount < 4)
+                {
+                    patrolCount++;
+                }
+                else if (patrolCount == 4)
+                {
+                    direction = false;
+                }
             }
-            else if (patrolCount == 8)
+            else
             {
-                patrolCount = 0;
+                if (patrolCount > 0)
+                {
+                    patrolCount--;
+                }
+                else if (patrolCount == 0)
+                {
+                    direction = true;
+                }
             }
+
         }
 
         target = StartPosition + PatrolPoint[patrolCount];
