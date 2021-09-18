@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3372791373892927333}
   - component: {fileID: 5668941170846645162}
   - component: {fileID: 7320911792062974732}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tube013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30,7 +30,7 @@ Transform:
   m_LocalScale: {x: -0.62699777, y: -0.62699777, z: -0.62699777}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 70
+  m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5668941170846645162
 MeshFilter:
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 5855190013366643765}
   - component: {fileID: 8418698822445404289}
   - component: {fileID: 8192652482396382495}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere00827
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111,7 +111,7 @@ Transform:
   m_LocalScale: {x: 0.24523711, y: 0.24523713, z: 0.24523713}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 51
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8418698822445404289
 MeshFilter:
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 6315185990430305942}
   - component: {fileID: 5720969737405639574}
   - component: {fileID: 7603758815322312589}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tube032
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -192,7 +192,7 @@ Transform:
   m_LocalScale: {x: -0.62699777, y: -0.62699777, z: -0.62699777}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 84
+  m_RootOrder: 83
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5720969737405639574
 MeshFilter:
@@ -254,7 +254,7 @@ GameObject:
   - component: {fileID: 2839418788633792468}
   - component: {fileID: 8052910592683689775}
   - component: {fileID: 507774201501107269}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ChamferCyl029
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -273,7 +273,7 @@ Transform:
   m_LocalScale: {x: -0.48962176, y: -0.48768705, z: -0.93050975}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8052910592683689775
 MeshFilter:
@@ -335,7 +335,7 @@ GameObject:
   - component: {fileID: 288376364052525799}
   - component: {fileID: 1930984093297318523}
   - component: {fileID: 9149424022672373596}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sph345634ere004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -354,7 +354,7 @@ Transform:
   m_LocalScale: {x: -0.48962203, y: -0.48962203, z: -0.48962203}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 27
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1930984093297318523
 MeshFilter:
@@ -416,7 +416,7 @@ GameObject:
   - component: {fileID: 7362537395642241177}
   - component: {fileID: 2480685980382945788}
   - component: {fileID: 9004034249243797581}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tube024
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -435,7 +435,7 @@ Transform:
   m_LocalScale: {x: -0.62699777, y: -0.62699777, z: -0.62699777}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 76
+  m_RootOrder: 75
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2480685980382945788
 MeshFilter:
@@ -497,7 +497,7 @@ GameObject:
   - component: {fileID: 5108789873064411669}
   - component: {fileID: 6328385729792866145}
   - component: {fileID: 4243906200053917897}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Torus001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -516,7 +516,7 @@ Transform:
   m_LocalScale: {x: 0.48962203, y: 0.48962203, z: 0.48962203}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 56
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6328385729792866145
 MeshFilter:
@@ -578,7 +578,7 @@ GameObject:
   - component: {fileID: 3317543925872062441}
   - component: {fileID: 6094167942920727463}
   - component: {fileID: 3423410893549803691}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere0467803
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -597,7 +597,7 @@ Transform:
   m_LocalScale: {x: 0.48962203, y: 0.48962203, z: 0.48962203}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 55
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6094167942920727463
 MeshFilter:
@@ -659,7 +659,7 @@ GameObject:
   - component: {fileID: 7885064535894087279}
   - component: {fileID: 7007548273175357311}
   - component: {fileID: 323240742517797001}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -678,7 +678,7 @@ Transform:
   m_LocalScale: {x: 0.65068316, y: 0.65068316, z: 0.65068316}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 35
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7007548273175357311
 MeshFilter:
@@ -740,7 +740,7 @@ GameObject:
   - component: {fileID: 5631309910296857821}
   - component: {fileID: 937860712442519086}
   - component: {fileID: 5037675130625800737}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tube033
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -759,7 +759,7 @@ Transform:
   m_LocalScale: {x: -0.62699777, y: -0.62699777, z: -0.62699777}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 85
+  m_RootOrder: 84
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &937860712442519086
 MeshFilter:
@@ -821,7 +821,7 @@ GameObject:
   - component: {fileID: 2340471005655449535}
   - component: {fileID: 4636889320650494568}
   - component: {fileID: 3539648184560294129}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere022
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -840,7 +840,7 @@ Transform:
   m_LocalScale: {x: 0.65068316, y: 0.65068316, z: 0.65068316}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 39
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4636889320650494568
 MeshFilter:
@@ -902,7 +902,7 @@ GameObject:
   - component: {fileID: 5912410889720369020}
   - component: {fileID: 3963028731525656087}
   - component: {fileID: 6343744318733110321}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere029
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -921,7 +921,7 @@ Transform:
   m_LocalScale: {x: 0.65068316, y: 0.65068316, z: 0.65068316}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 46
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3963028731525656087
 MeshFilter:
@@ -983,7 +983,7 @@ GameObject:
   - component: {fileID: 3012495362554382619}
   - component: {fileID: 7813463287452638504}
   - component: {fileID: 6944364291313518296}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 272727
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1064,7 +1064,7 @@ GameObject:
   - component: {fileID: 1299264806906270071}
   - component: {fileID: 8729247714413035509}
   - component: {fileID: 806992408958248689}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Box335689
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1145,7 +1145,7 @@ GameObject:
   - component: {fileID: 449126897187533982}
   - component: {fileID: 3433574044203151735}
   - component: {fileID: 442325595889714129}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ChamferCyl030
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1164,7 +1164,7 @@ Transform:
   m_LocalScale: {x: -0.48962176, y: -0.48768705, z: -0.93050975}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3433574044203151735
 MeshFilter:
@@ -1226,7 +1226,7 @@ GameObject:
   - component: {fileID: 6582603782312941731}
   - component: {fileID: 321332392499674113}
   - component: {fileID: 9040540742662135306}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tube030
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1245,7 +1245,7 @@ Transform:
   m_LocalScale: {x: -0.62699777, y: -0.62699777, z: -0.62699777}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 82
+  m_RootOrder: 81
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &321332392499674113
 MeshFilter:
@@ -1307,7 +1307,7 @@ GameObject:
   - component: {fileID: 8701841464775061561}
   - component: {fileID: 7381001421511595361}
   - component: {fileID: 413709389953092847}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tube016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1326,7 +1326,7 @@ Transform:
   m_LocalScale: {x: -0.62699777, y: -0.62699777, z: -0.62699777}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 73
+  m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7381001421511595361
 MeshFilter:
@@ -1388,7 +1388,7 @@ GameObject:
   - component: {fileID: 1166295374040484576}
   - component: {fileID: 110517951840461769}
   - component: {fileID: 4527563519385525296}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1407,7 +1407,7 @@ Transform:
   m_LocalScale: {x: 0.65068316, y: 0.65068316, z: 0.65068316}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 30
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &110517951840461769
 MeshFilter:
@@ -1469,7 +1469,7 @@ GameObject:
   - component: {fileID: 507409858694189264}
   - component: {fileID: 6580494644843332475}
   - component: {fileID: 8984749435214328130}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1488,7 +1488,7 @@ Transform:
   m_LocalScale: {x: 0.65068316, y: 0.65068316, z: 0.65068316}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 34
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6580494644843332475
 MeshFilter:
@@ -1550,7 +1550,7 @@ GameObject:
   - component: {fileID: 4029565930421634277}
   - component: {fileID: 346098102438632691}
   - component: {fileID: 4877851410791435708}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ChamferCyl27021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1569,7 +1569,7 @@ Transform:
   m_LocalScale: {x: 0.48962164, y: 0.48962164, z: 0.51061857}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &346098102438632691
 MeshFilter:
@@ -1631,7 +1631,7 @@ GameObject:
   - component: {fileID: 2450538184697452710}
   - component: {fileID: 8091449564251705430}
   - component: {fileID: 3849249063997445792}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ChamferCyl028
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1650,7 +1650,7 @@ Transform:
   m_LocalScale: {x: -0.48962176, y: -0.48768705, z: -0.93050975}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8091449564251705430
 MeshFilter:
@@ -1712,7 +1712,7 @@ GameObject:
   - component: {fileID: 7284724521452876719}
   - component: {fileID: 1155460096003721016}
   - component: {fileID: 8117954495447178244}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Torus003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1731,7 +1731,7 @@ Transform:
   m_LocalScale: {x: 0.48962203, y: 0.48962203, z: 0.48962203}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 58
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1155460096003721016
 MeshFilter:
@@ -1793,7 +1793,7 @@ GameObject:
   - component: {fileID: 4054980084267498782}
   - component: {fileID: 1931146922427927652}
   - component: {fileID: 8999672791164529234}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tube025
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1812,7 +1812,7 @@ Transform:
   m_LocalScale: {x: -0.62699777, y: -0.62699777, z: -0.62699777}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 77
+  m_RootOrder: 76
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1931146922427927652
 MeshFilter:
@@ -1874,7 +1874,7 @@ GameObject:
   - component: {fileID: 8523778195396062483}
   - component: {fileID: 4560006088260648801}
   - component: {fileID: 1118946638401350170}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Box0043568
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1955,7 +1955,7 @@ GameObject:
   - component: {fileID: 3947812020111571883}
   - component: {fileID: 6333866161913794929}
   - component: {fileID: 5059467437614304436}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere023
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1974,7 +1974,7 @@ Transform:
   m_LocalScale: {x: 0.65068316, y: 0.65068316, z: 0.65068316}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 40
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6333866161913794929
 MeshFilter:
@@ -2036,7 +2036,7 @@ GameObject:
   - component: {fileID: 3534002425804598015}
   - component: {fileID: 7110275220120251383}
   - component: {fileID: 3508257890887972079}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2055,7 +2055,7 @@ Transform:
   m_LocalScale: {x: 0.24523711, y: 0.24523717, z: 0.24523717}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 29
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7110275220120251383
 MeshFilter:
@@ -2117,7 +2117,7 @@ GameObject:
   - component: {fileID: 6986150497772534273}
   - component: {fileID: 1267482985907794827}
   - component: {fileID: 427709963628723200}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tube010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2136,7 +2136,7 @@ Transform:
   m_LocalScale: {x: -0.62699777, y: -0.62699777, z: -0.62699777}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 67
+  m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1267482985907794827
 MeshFilter:
@@ -2198,7 +2198,7 @@ GameObject:
   - component: {fileID: 390305200006533418}
   - component: {fileID: 8527799388119766140}
   - component: {fileID: 3755379879869516059}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tube012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2217,7 +2217,7 @@ Transform:
   m_LocalScale: {x: -0.62699777, y: -0.62699777, z: -0.62699777}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 69
+  m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8527799388119766140
 MeshFilter:
@@ -2279,7 +2279,7 @@ GameObject:
   - component: {fileID: 6840981291121535011}
   - component: {fileID: 7843861121127772226}
   - component: {fileID: 4034319136604516906}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tube019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2298,7 +2298,7 @@ Transform:
   m_LocalScale: {x: -0.48962203, y: -0.48962203, z: -0.48962203}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 75
+  m_RootOrder: 74
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7843861121127772226
 MeshFilter:
@@ -2360,7 +2360,7 @@ GameObject:
   - component: {fileID: 3517670335835135248}
   - component: {fileID: 345607683821433355}
   - component: {fileID: 4197520755507819382}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ChamferCyl031
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2379,7 +2379,7 @@ Transform:
   m_LocalScale: {x: -0.48962176, y: -0.48768705, z: -0.93050975}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &345607683821433355
 MeshFilter:
@@ -2441,7 +2441,7 @@ GameObject:
   - component: {fileID: 685131397935196564}
   - component: {fileID: 4885707131144447193}
   - component: {fileID: 2958828235499563777}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2460,7 +2460,7 @@ Transform:
   m_LocalScale: {x: 0.65068316, y: 0.65068316, z: 0.65068316}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 36
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4885707131144447193
 MeshFilter:
@@ -2520,7 +2520,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2811438916954508622}
-  m_Layer: 0
+  - component: {fileID: 963498445875941649}
+  - component: {fileID: 963498445875941648}
+  - component: {fileID: 963498445875941651}
+  m_Layer: 7
   m_Name: Enemy_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2542,6 +2545,46 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &963498445875941649
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2811438916954508657}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 5, z: 2.96}
+  m_Center: {x: 0, y: 0.3, z: -0.65}
+--- !u!65 &963498445875941648
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2811438916954508657}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.81, y: 5, z: 4.8}
+  m_Center: {x: 0, y: 0.3, z: -4.6}
+--- !u!136 &963498445875941651
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2811438916954508657}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.34
+  m_Height: 7
+  m_Direction: 2
+  m_Center: {x: 0, y: 0.33, z: 4.44}
 --- !u!1 &3077580546639678488
 GameObject:
   m_ObjectHideFlags: 0
@@ -2553,7 +2596,7 @@ GameObject:
   - component: {fileID: 1311477969604406267}
   - component: {fileID: 3181973760434138233}
   - component: {fileID: 2769203307901700607}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2572,7 +2615,7 @@ Transform:
   m_LocalScale: {x: 0.65068316, y: 0.65068316, z: 0.65068316}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 33
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3181973760434138233
 MeshFilter:
@@ -2634,7 +2677,7 @@ GameObject:
   - component: {fileID: 1931961350185787392}
   - component: {fileID: 944947717449042416}
   - component: {fileID: 7423502965314894617}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2653,7 +2696,7 @@ Transform:
   m_LocalScale: {x: 0.65068316, y: 0.65068316, z: 0.65068316}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 37
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &944947717449042416
 MeshFilter:
@@ -2715,7 +2758,7 @@ GameObject:
   - component: {fileID: 2566084363375552249}
   - component: {fileID: 9200676894842751402}
   - component: {fileID: 8000167745569658188}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tube011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2734,7 +2777,7 @@ Transform:
   m_LocalScale: {x: -0.62699777, y: -0.62699777, z: -0.62699777}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 68
+  m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &9200676894842751402
 MeshFilter:
@@ -2796,7 +2839,7 @@ GameObject:
   - component: {fileID: 2758423974932904080}
   - component: {fileID: 794601921155076958}
   - component: {fileID: 4507601417550325319}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tube005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2815,7 +2858,7 @@ Transform:
   m_LocalScale: {x: 0.62699777, y: 0.62699777, z: 0.62699777}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 62
+  m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &794601921155076958
 MeshFilter:
@@ -2877,7 +2920,7 @@ GameObject:
   - component: {fileID: 4084534221904564854}
   - component: {fileID: 3229513517568258330}
   - component: {fileID: 7400164300033200562}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere031
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2896,7 +2939,7 @@ Transform:
   m_LocalScale: {x: 0.65068316, y: 0.65068316, z: 0.65068316}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 48
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3229513517568258330
 MeshFilter:
@@ -2958,7 +3001,7 @@ GameObject:
   - component: {fileID: 4104452253379966586}
   - component: {fileID: 7452234833880176103}
   - component: {fileID: 6972411421957918404}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere005675
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2977,7 +3020,7 @@ Transform:
   m_LocalScale: {x: 0.24523711, y: 0.24523713, z: 0.24523713}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 53
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7452234833880176103
 MeshFilter:
@@ -3039,7 +3082,7 @@ GameObject:
   - component: {fileID: 678334466127497442}
   - component: {fileID: 5268398610412436172}
   - component: {fileID: 4529999371229805627}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cylind56345er004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3058,7 +3101,7 @@ Transform:
   m_LocalScale: {x: 0.48962203, y: 0.48962203, z: 0.48962203}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5268398610412436172
 MeshFilter:
@@ -3120,7 +3163,7 @@ GameObject:
   - component: {fileID: 8447034371562393431}
   - component: {fileID: 6992771889725717178}
   - component: {fileID: 7835911423171863915}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Torus005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3139,7 +3182,7 @@ Transform:
   m_LocalScale: {x: 0.489622, y: 0.489622, z: 0.90812707}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 60
+  m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6992771889725717178
 MeshFilter:
@@ -3202,7 +3245,7 @@ GameObject:
   - component: {fileID: 2230273294437267186}
   - component: {fileID: 6272646730492589374}
   - component: {fileID: 3123789693245350202}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3221,7 +3264,7 @@ Transform:
   m_LocalScale: {x: 0.65068316, y: 0.65068316, z: 0.65068316}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 38
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6272646730492589374
 MeshFilter:
@@ -3283,7 +3326,7 @@ GameObject:
   - component: {fileID: 7849944543357583245}
   - component: {fileID: 5146896062816697093}
   - component: {fileID: 1041406641125290468}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ChamferC27yl022
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3302,7 +3345,7 @@ Transform:
   m_LocalScale: {x: 0.48962164, y: 0.48962164, z: 0.51061857}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5146896062816697093
 MeshFilter:
@@ -3364,7 +3407,7 @@ GameObject:
   - component: {fileID: 5414559919238267}
   - component: {fileID: 3583184143051029216}
   - component: {fileID: 1173849966851634875}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere00727
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3383,7 +3426,7 @@ Transform:
   m_LocalScale: {x: 0.24523719, y: 0.24523719, z: 0.24523711}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 50
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3583184143051029216
 MeshFilter:
@@ -3445,7 +3488,7 @@ GameObject:
   - component: {fileID: 5531454712196724201}
   - component: {fileID: 214401319957940293}
   - component: {fileID: 2537989124815701903}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tube035
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3464,7 +3507,7 @@ Transform:
   m_LocalScale: {x: -0.62699777, y: -0.62699777, z: -0.62699777}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 87
+  m_RootOrder: 86
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &214401319957940293
 MeshFilter:
@@ -3526,7 +3569,7 @@ GameObject:
   - component: {fileID: 4879598841999799271}
   - component: {fileID: 6227550713300634960}
   - component: {fileID: 7437362379711184839}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tube006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3545,7 +3588,7 @@ Transform:
   m_LocalScale: {x: 0.62699777, y: 0.62699777, z: 0.62699777}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 63
+  m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6227550713300634960
 MeshFilter:
@@ -3607,7 +3650,7 @@ GameObject:
   - component: {fileID: 1047798827997961698}
   - component: {fileID: 8142322705588672363}
   - component: {fileID: 8324267733143573114}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Box335690
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3688,7 +3731,7 @@ GameObject:
   - component: {fileID: 1090452083297134824}
   - component: {fileID: 5065916173873774368}
   - component: {fileID: 2290323303705519510}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere0065687
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3707,7 +3750,7 @@ Transform:
   m_LocalScale: {x: 0.24523719, y: 0.24523719, z: 0.24523711}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 54
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5065916173873774368
 MeshFilter:
@@ -3769,7 +3812,7 @@ GameObject:
   - component: {fileID: 8355965101990093704}
   - component: {fileID: 6745730801884641807}
   - component: {fileID: 3104711161628512330}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tube031
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3788,7 +3831,7 @@ Transform:
   m_LocalScale: {x: -0.62699777, y: -0.62699777, z: -0.62699777}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 83
+  m_RootOrder: 82
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6745730801884641807
 MeshFilter:
@@ -3850,7 +3893,7 @@ GameObject:
   - component: {fileID: 8717224333121254826}
   - component: {fileID: 3156104659951169020}
   - component: {fileID: 640796942617941113}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tube014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3869,7 +3912,7 @@ Transform:
   m_LocalScale: {x: -0.62699777, y: -0.62699777, z: -0.62699777}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 71
+  m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3156104659951169020
 MeshFilter:
@@ -3931,7 +3974,7 @@ GameObject:
   - component: {fileID: 7913624604678794548}
   - component: {fileID: 777795184459535730}
   - component: {fileID: 1134971177473916644}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Chamf3456erCyl019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3950,7 +3993,7 @@ Transform:
   m_LocalScale: {x: 0.48962152, y: 0.4876824, z: 0.7076673}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &777795184459535730
 MeshFilter:
@@ -4012,7 +4055,7 @@ GameObject:
   - component: {fileID: 5208182596619769737}
   - component: {fileID: 2739739549421456934}
   - component: {fileID: 6238408593455756768}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tube015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4031,7 +4074,7 @@ Transform:
   m_LocalScale: {x: -0.62699777, y: -0.62699777, z: -0.62699777}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 72
+  m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2739739549421456934
 MeshFilter:
@@ -4093,7 +4136,7 @@ GameObject:
   - component: {fileID: 7383212790068782424}
   - component: {fileID: 5602525379210448860}
   - component: {fileID: 2506136478757115976}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Box0062727
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4163,87 +4206,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &5024181941421104951
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8464097020450415298}
-  - component: {fileID: 8635592405481522621}
-  - component: {fileID: 6696360460368604864}
-  m_Layer: 0
-  m_Name: Box335691
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8464097020450415298
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5024181941421104951}
-  m_LocalRotation: {x: 0.50000036, y: 0.5, z: -0.49999976, w: -0.4999999}
-  m_LocalPosition: {x: -1.9748329, y: 0.18401513, z: -0.96051306}
-  m_LocalScale: {x: 0.10959905, y: 0.95873547, z: -0.28446278}
-  m_Children: []
-  m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &8635592405481522621
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5024181941421104951}
-  m_Mesh: {fileID: 8306774092116366408, guid: ac47c259bf1dbbb41b75812a056e146e, type: 3}
---- !u!23 &6696360460368604864
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5024181941421104951}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: -1912704508830821585, guid: ac47c259bf1dbbb41b75812a056e146e, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5156415169565208859
 GameObject:
   m_ObjectHideFlags: 0
@@ -4255,7 +4217,7 @@ GameObject:
   - component: {fileID: 8420084404481176216}
   - component: {fileID: 956333992498427814}
   - component: {fileID: 5319672824158823679}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tube034
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4274,7 +4236,7 @@ Transform:
   m_LocalScale: {x: -0.62699777, y: -0.62699777, z: -0.62699777}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 86
+  m_RootOrder: 85
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &956333992498427814
 MeshFilter:
@@ -4336,7 +4298,7 @@ GameObject:
   - component: {fileID: 7888652968249387615}
   - component: {fileID: 221760692150361302}
   - component: {fileID: 7920809501440088857}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tube026
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4355,7 +4317,7 @@ Transform:
   m_LocalScale: {x: -0.62699777, y: -0.62699777, z: -0.62699777}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 78
+  m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &221760692150361302
 MeshFilter:
@@ -4417,7 +4379,7 @@ GameObject:
   - component: {fileID: 4461967846622805456}
   - component: {fileID: 5178488656332519265}
   - component: {fileID: 4399351801667408284}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Box007274
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4498,7 +4460,7 @@ GameObject:
   - component: {fileID: 697584153151814993}
   - component: {fileID: 5105375155015020062}
   - component: {fileID: 6683000716862910200}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4517,7 +4479,7 @@ Transform:
   m_LocalScale: {x: 0.65068316, y: 0.65068316, z: 0.65068316}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 31
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5105375155015020062
 MeshFilter:
@@ -4579,7 +4541,7 @@ GameObject:
   - component: {fileID: 5353342351588497719}
   - component: {fileID: 1486186051713278843}
   - component: {fileID: 250303923371400961}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Torus002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4598,7 +4560,7 @@ Transform:
   m_LocalScale: {x: 0.48962203, y: 0.48962203, z: 0.48962203}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 57
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1486186051713278843
 MeshFilter:
@@ -4660,7 +4622,7 @@ GameObject:
   - component: {fileID: 7370079383440540701}
   - component: {fileID: 3580243810388380505}
   - component: {fileID: 2707876796801616576}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ChamferCyl02427
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4679,7 +4641,7 @@ Transform:
   m_LocalScale: {x: 0.48962164, y: 0.48962164, z: 0.51061857}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3580243810388380505
 MeshFilter:
@@ -4741,7 +4703,7 @@ GameObject:
   - component: {fileID: 3569958286595629989}
   - component: {fileID: 8845125867137597000}
   - component: {fileID: 839204806783588979}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ChamferCyl025
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4760,7 +4722,7 @@ Transform:
   m_LocalScale: {x: 0.24523711, y: 0.24523714, z: 0.24523714}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8845125867137597000
 MeshFilter:
@@ -4822,7 +4784,7 @@ GameObject:
   - component: {fileID: 2770768180540830178}
   - component: {fileID: 2543500636100586498}
   - component: {fileID: 6145969821134135930}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere025
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4841,7 +4803,7 @@ Transform:
   m_LocalScale: {x: 0.65068316, y: 0.65068316, z: 0.65068316}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 42
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2543500636100586498
 MeshFilter:
@@ -4903,7 +4865,7 @@ GameObject:
   - component: {fileID: 9185192769552506076}
   - component: {fileID: 7121145254244418242}
   - component: {fileID: 5437523084499380345}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cylinder00237
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4922,7 +4884,7 @@ Transform:
   m_LocalScale: {x: 0.48962203, y: 0.48962203, z: 0.48962203}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7121145254244418242
 MeshFilter:
@@ -4984,7 +4946,7 @@ GameObject:
   - component: {fileID: 1676929765743653255}
   - component: {fileID: 7952844796234191191}
   - component: {fileID: 3676748273493667343}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Box0053568
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5065,7 +5027,7 @@ GameObject:
   - component: {fileID: 6433162115177632263}
   - component: {fileID: 4477274826520143983}
   - component: {fileID: 6966006187663413261}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tube029
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5084,7 +5046,7 @@ Transform:
   m_LocalScale: {x: -0.62699777, y: -0.62699777, z: -0.62699777}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 81
+  m_RootOrder: 80
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4477274826520143983
 MeshFilter:
@@ -5146,7 +5108,7 @@ GameObject:
   - component: {fileID: 4287029072743148944}
   - component: {fileID: 5067101795162122584}
   - component: {fileID: 7941153341938677767}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere00927
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5165,7 +5127,7 @@ Transform:
   m_LocalScale: {x: 0.24523711, y: 0.24523711, z: 0.24523711}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 52
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5067101795162122584
 MeshFilter:
@@ -5227,7 +5189,7 @@ GameObject:
   - component: {fileID: 158687547437446273}
   - component: {fileID: 549087722456779780}
   - component: {fileID: 4008257848013257277}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tube009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5246,7 +5208,7 @@ Transform:
   m_LocalScale: {x: -0.62699777, y: -0.62699777, z: -0.62699777}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 66
+  m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &549087722456779780
 MeshFilter:
@@ -5308,7 +5270,7 @@ GameObject:
   - component: {fileID: 1215983051362615355}
   - component: {fileID: 2431623011775937470}
   - component: {fileID: 5692764196719721491}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tube018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5327,7 +5289,7 @@ Transform:
   m_LocalScale: {x: 0.48962203, y: 0.48962203, z: 0.48962203}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 74
+  m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2431623011775937470
 MeshFilter:
@@ -5389,7 +5351,7 @@ GameObject:
   - component: {fileID: 7084141518333580106}
   - component: {fileID: 7404669324352732073}
   - component: {fileID: 7402019108708734289}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cylinder003673
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5408,7 +5370,7 @@ Transform:
   m_LocalScale: {x: 0.48962203, y: 0.48962203, z: 0.48962203}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7404669324352732073
 MeshFilter:
@@ -5470,7 +5432,7 @@ GameObject:
   - component: {fileID: 2037922620164985125}
   - component: {fileID: 8452417390652987775}
   - component: {fileID: 4332173094963381721}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere028
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5489,7 +5451,7 @@ Transform:
   m_LocalScale: {x: 0.65068316, y: 0.65068316, z: 0.65068316}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 45
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8452417390652987775
 MeshFilter:
@@ -5551,7 +5513,7 @@ GameObject:
   - component: {fileID: 3811004085452870574}
   - component: {fileID: 7898596189978372119}
   - component: {fileID: 3398323006763381971}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tube027
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5570,7 +5532,7 @@ Transform:
   m_LocalScale: {x: -0.62699777, y: -0.62699777, z: -0.62699777}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 79
+  m_RootOrder: 78
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7898596189978372119
 MeshFilter:
@@ -5632,7 +5594,7 @@ GameObject:
   - component: {fileID: 3408135104673069243}
   - component: {fileID: 7166371676583853353}
   - component: {fileID: 8776827523400703526}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ChamferCyl026
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5651,7 +5613,7 @@ Transform:
   m_LocalScale: {x: 0.24523711, y: 0.24523711, z: 0.24523711}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7166371676583853353
 MeshFilter:
@@ -5713,7 +5675,7 @@ GameObject:
   - component: {fileID: 1151443380620292942}
   - component: {fileID: 9123774205460513245}
   - component: {fileID: 7004988584963723406}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ChamferCyl02720
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5732,7 +5694,7 @@ Transform:
   m_LocalScale: {x: 0.24523711, y: 0.24523714, z: 0.24523714}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &9123774205460513245
 MeshFilter:
@@ -5794,7 +5756,7 @@ GameObject:
   - component: {fileID: 1655552725235687701}
   - component: {fileID: 3264464235720687077}
   - component: {fileID: 2229847860153916226}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cha3456mferCyl018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5813,7 +5775,7 @@ Transform:
   m_LocalScale: {x: -0.4896216, y: -0.4876825, z: -0.70766723}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3264464235720687077
 MeshFilter:
@@ -5875,7 +5837,7 @@ GameObject:
   - component: {fileID: 2414157064779296653}
   - component: {fileID: 231949660724830647}
   - component: {fileID: 5411678784951161976}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere026
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5894,7 +5856,7 @@ Transform:
   m_LocalScale: {x: 0.65068316, y: 0.65068316, z: 0.65068316}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 43
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &231949660724830647
 MeshFilter:
@@ -5956,7 +5918,7 @@ GameObject:
   - component: {fileID: 1354282803215014485}
   - component: {fileID: 3058559643648152756}
   - component: {fileID: 4443289420194522809}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tube007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5975,7 +5937,7 @@ Transform:
   m_LocalScale: {x: 0.62699777, y: 0.62699777, z: 0.62699777}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 64
+  m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3058559643648152756
 MeshFilter:
@@ -6037,7 +5999,7 @@ GameObject:
   - component: {fileID: 2086441229490615119}
   - component: {fileID: 9093358959461680834}
   - component: {fileID: 645768297310093805}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere024
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6056,7 +6018,7 @@ Transform:
   m_LocalScale: {x: 0.65068316, y: 0.65068316, z: 0.65068316}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 41
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &9093358959461680834
 MeshFilter:
@@ -6118,7 +6080,7 @@ GameObject:
   - component: {fileID: 1794299610987210057}
   - component: {fileID: 7094581684020298435}
   - component: {fileID: 5292465666743329943}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere030
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6137,7 +6099,7 @@ Transform:
   m_LocalScale: {x: 0.65068316, y: 0.65068316, z: 0.65068316}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 47
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7094581684020298435
 MeshFilter:
@@ -6199,7 +6161,7 @@ GameObject:
   - component: {fileID: 3759143204118423733}
   - component: {fileID: 8616663881881007463}
   - component: {fileID: 7459407081284680830}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Torus004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6218,7 +6180,7 @@ Transform:
   m_LocalScale: {x: 0.48962203, y: 0.48962203, z: 0.48962203}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 59
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8616663881881007463
 MeshFilter:
@@ -6280,7 +6242,7 @@ GameObject:
   - component: {fileID: 2202079957265663580}
   - component: {fileID: 8292031489041678371}
   - component: {fileID: 889848540109037187}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere032
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6299,7 +6261,7 @@ Transform:
   m_LocalScale: {x: 0.65068316, y: 0.65068316, z: 0.65068316}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 49
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8292031489041678371
 MeshFilter:
@@ -6361,7 +6323,7 @@ GameObject:
   - component: {fileID: 3326239997638791476}
   - component: {fileID: 726931647119072940}
   - component: {fileID: 8013076236223696871}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Box00335687
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6442,7 +6404,7 @@ GameObject:
   - component: {fileID: 6182692765405938587}
   - component: {fileID: 7204406336432308364}
   - component: {fileID: 34303269120367982}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6461,7 +6423,7 @@ Transform:
   m_LocalScale: {x: 0.24523711, y: 0.24523717, z: 0.24523717}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 28
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7204406336432308364
 MeshFilter:
@@ -6523,7 +6485,7 @@ GameObject:
   - component: {fileID: 8154679749434268681}
   - component: {fileID: 4313127062231639868}
   - component: {fileID: 5573246422920165055}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cylinder0013567
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6542,7 +6504,7 @@ Transform:
   m_LocalScale: {x: 0.48962203, y: 0.48962203, z: 0.48962203}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 26
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4313127062231639868
 MeshFilter:
@@ -6604,7 +6566,7 @@ GameObject:
   - component: {fileID: 5600091115231645738}
   - component: {fileID: 2594808835009668655}
   - component: {fileID: 2183980067972038157}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ChamferCyl0356817
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6623,7 +6585,7 @@ Transform:
   m_LocalScale: {x: -0.4896217, y: -0.4896217, z: -0.51061857}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2594808835009668655
 MeshFilter:
@@ -6685,7 +6647,7 @@ GameObject:
   - component: {fileID: 3375349533612605527}
   - component: {fileID: 690482164576609622}
   - component: {fileID: 7405621398498689140}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6704,7 +6666,7 @@ Transform:
   m_LocalScale: {x: 0.65068316, y: 0.65068316, z: 0.65068316}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 32
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &690482164576609622
 MeshFilter:
@@ -6766,7 +6728,7 @@ GameObject:
   - component: {fileID: 1212456544538374530}
   - component: {fileID: 3994963752300103156}
   - component: {fileID: 5168511592755911768}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tube008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6785,7 +6747,7 @@ Transform:
   m_LocalScale: {x: 0.62699777, y: 0.62699777, z: 0.62699777}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 65
+  m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3994963752300103156
 MeshFilter:
@@ -6847,7 +6809,7 @@ GameObject:
   - component: {fileID: 615339473877464265}
   - component: {fileID: 1076424078349668148}
   - component: {fileID: 2442046956398142383}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere027
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6866,7 +6828,7 @@ Transform:
   m_LocalScale: {x: 0.65068316, y: 0.65068316, z: 0.65068316}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 44
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1076424078349668148
 MeshFilter:
@@ -6928,7 +6890,7 @@ GameObject:
   - component: {fileID: 5325519384107056645}
   - component: {fileID: 8122285103098383230}
   - component: {fileID: 7889034546389837677}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ChamferCyl027
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6947,7 +6909,7 @@ Transform:
   m_LocalScale: {x: 0.24523711, y: 0.24523711, z: 0.24523711}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8122285103098383230
 MeshFilter:
@@ -7009,7 +6971,7 @@ GameObject:
   - component: {fileID: 4569579520038862722}
   - component: {fileID: 5722100609298491233}
   - component: {fileID: 1306780829572507859}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tube028
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7028,7 +6990,7 @@ Transform:
   m_LocalScale: {x: -0.62699777, y: -0.62699777, z: -0.62699777}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 80
+  m_RootOrder: 79
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5722100609298491233
 MeshFilter:
@@ -7088,7 +7050,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8224750859587258426}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: df
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7104,7 +7066,7 @@ Transform:
   m_GameObject: {fileID: 8869061805988344643}
   m_LocalRotation: {x: 0.5, y: 0.5, z: 0.5, w: -0.5}
   m_LocalPosition: {x: 0, y: 0.6, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 3012495362554382619}
   - {fileID: 4461967846622805456}
@@ -7114,7 +7076,6 @@ Transform:
   - {fileID: 3326239997638791476}
   - {fileID: 1299264806906270071}
   - {fileID: 1047798827997961698}
-  - {fileID: 8464097020450415298}
   - {fileID: 1655552725235687701}
   - {fileID: 7913624604678794548}
   - {fileID: 7849944543357583245}
@@ -7208,7 +7169,7 @@ GameObject:
   - component: {fileID: 1899774975191926910}
   - component: {fileID: 1741615606875164825}
   - component: {fileID: 1582900621222092184}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Torus006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7227,7 +7188,7 @@ Transform:
   m_LocalScale: {x: 0.489622, y: 0.489622, z: 0.8937318}
   m_Children: []
   m_Father: {fileID: 8224750859587258426}
-  m_RootOrder: 61
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1741615606875164825
 MeshFilter:

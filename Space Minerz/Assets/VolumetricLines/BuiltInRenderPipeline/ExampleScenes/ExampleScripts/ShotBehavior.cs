@@ -8,6 +8,9 @@ public class ShotBehavior : MonoBehaviour {
 
 	[Header("Data Value")]
 	public float speed = 20f;
+	public float liveTime = 1f;
+
+	float liveCountDown = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -18,6 +21,11 @@ public class ShotBehavior : MonoBehaviour {
 	void Update () 
 	{
 		transform.position += transform.forward * Time.deltaTime * speed;
+		liveCountDown += Time.deltaTime;
+		if(liveCountDown > liveTime)
+		{
+			Destroy(this.gameObject);
+		}
 	}
 
 	private void OnCollisionEnter(Collision collision)
