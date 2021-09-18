@@ -17,9 +17,9 @@ TagManager:
   - enemyCollider
   - playerLaserCollider
   - enemyLaserCollider
+  - miningLaserCollider
   - navMesh
-  - 
-  - 
+  - asteroidCollider
   - 
   - 
   - 

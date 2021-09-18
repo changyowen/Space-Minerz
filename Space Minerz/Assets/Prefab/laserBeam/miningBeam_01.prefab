@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2958884447574201829}
   - component: {fileID: 2958884447581809169}
   - component: {fileID: 2958884447581165207}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: shot_prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,11 +95,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0884dceb0d4308c4eb8bc763c8f8deae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_templateMaterial: {fileID: 2100000, guid: 118d383c068a0654299a01dabe0d6ff8, type: 2}
+  m_templateMaterial: {fileID: 2100000, guid: b44c0de58b2f17b49bc6aa7142d675cc, type: 2}
   m_doNotOverwriteTemplateMaterialProperties: 1
   m_startPos: {x: 0, y: 0, z: 0}
   m_endPos: {x: 0, y: 0, z: 50}
-  m_lineColor: {r: 0, g: 1, b: 0, a: 0}
+  m_lineColor: {r: 0.034482718, g: 1, b: 0, a: 0}
   m_lineWidth: 66
   m_lightSaberFactor: 0.747
 --- !u!108 &2958884447581165207
@@ -113,7 +113,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0, g: 0.34117648, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_Intensity: 2
   m_Range: 5
   m_SpotAngle: 30
@@ -176,8 +176,8 @@ GameObject:
   - component: {fileID: 4661295554403285251}
   - component: {fileID: 6333241716273308797}
   - component: {fileID: -128558954224416509}
-  m_Layer: 8
-  m_Name: playerBeam_01
+  m_Layer: 10
+  m_Name: miningBeam_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cb039d3a64491f4ebfc852d25b5ee70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitEffect_obj: {fileID: 1570927096764274, guid: c9ea13ffc80ac404497acf811600c11a, type: 3}
+  hitEffect_obj: {fileID: 1570927096764274, guid: 793995bde3840794c9852d694f43d289, type: 3}
   speed: 20
   liveTime: 1
 --- !u!136 &6333241716273308797
