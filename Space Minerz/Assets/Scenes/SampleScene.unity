@@ -190,34 +190,9 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!1 &212182275 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2973049544296176740, guid: bd633ab87883d834cb0fede6d9bd5d87, type: 3}
-  m_PrefabInstance: {fileID: 2973049544504031591}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &212182277 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2973049544296176739, guid: bd633ab87883d834cb0fede6d9bd5d87, type: 3}
-  m_PrefabInstance: {fileID: 2973049544504031591}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &212182279
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 212182275}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2674ce4099567f24bac456c9ffab331c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  laserBeam_obj: {fileID: 4434805902593520310, guid: 584e1a67c231d054b8ae71689e16280f, type: 3}
-  gunPoint_transform: {fileID: 549596771}
-  gunRefreshTime: 0.35
---- !u!4 &549596771 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 549596771, guid: bd633ab87883d834cb0fede6d9bd5d87, type: 3}
   m_PrefabInstance: {fileID: 2973049544504031591}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993

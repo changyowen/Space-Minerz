@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4051717522692709406}
   - component: {fileID: 3526211206796692935}
   - component: {fileID: 5600049669495876313}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ChamferBox004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 5741135703921007649}
   - component: {fileID: 5688181709970045548}
   - component: {fileID: 7465190683001702999}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 2184981215894206570}
   - component: {fileID: 1997952619075091168}
   - component: {fileID: 1717302953508081322}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -254,7 +254,7 @@ GameObject:
   - component: {fileID: 1011939553019543964}
   - component: {fileID: 5735354764328916339}
   - component: {fileID: 7400712797496180235}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ChamferCyl014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -335,7 +335,7 @@ GameObject:
   - component: {fileID: 5749567648299775610}
   - component: {fileID: 61607198335972374}
   - component: {fileID: 950365212464310238}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ch123ferCyl004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -416,7 +416,7 @@ GameObject:
   - component: {fileID: 7281300513895461106}
   - component: {fileID: 6449304733972296241}
   - component: {fileID: 5678840551497147983}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -497,7 +497,7 @@ GameObject:
   - component: {fileID: 7905344286157735288}
   - component: {fileID: 1835319747307881638}
   - component: {fileID: 8180897568935282092}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ChamferCyl0034345
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -578,7 +578,7 @@ GameObject:
   - component: {fileID: 6579121378155193367}
   - component: {fileID: 2426554782437363431}
   - component: {fileID: 897032778556681111}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cham678rCyl012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -657,7 +657,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6925663330183316406}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: drt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -716,7 +716,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3569855205630165112}
-  m_Layer: 0
+  - component: {fileID: 362333053965014510}
+  - component: {fileID: 667548091905674495}
+  m_Layer: 7
   m_Name: Enemy_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -738,6 +740,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &362333053965014510
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3569855205630165111}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.31
+  m_Height: 2.8
+  m_Direction: 2
+  m_Center: {x: 0, y: 0.33, z: 0}
+--- !u!65 &667548091905674495
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3569855205630165111}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.33, z: -0.8}
 --- !u!1 &3700726703167111387
 GameObject:
   m_ObjectHideFlags: 0
@@ -749,7 +778,7 @@ GameObject:
   - component: {fileID: 270275173986518950}
   - component: {fileID: 546858764919196481}
   - component: {fileID: 2240255974170275538}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere006765
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -830,7 +859,7 @@ GameObject:
   - component: {fileID: 4383071862326767939}
   - component: {fileID: 482671154584337495}
   - component: {fileID: 4059028662381360260}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -911,7 +940,7 @@ GameObject:
   - component: {fileID: 4337754560466990757}
   - component: {fileID: 642249735981996904}
   - component: {fileID: 5351612822046749131}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Spher32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -992,7 +1021,7 @@ GameObject:
   - component: {fileID: 4429922692173910970}
   - component: {fileID: 2538948277715284854}
   - component: {fileID: 1511542483954274478}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cylin3402
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1073,7 +1102,7 @@ GameObject:
   - component: {fileID: 5198807213064714188}
   - component: {fileID: 8954266429320212278}
   - component: {fileID: 1919997371373347043}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ChamferCyl013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1154,7 +1183,7 @@ GameObject:
   - component: {fileID: 5747898882898890716}
   - component: {fileID: 5952155719734368994}
   - component: {fileID: 1015910973688559480}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ChamferC123
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1235,7 +1264,7 @@ GameObject:
   - component: {fileID: 862186301425287612}
   - component: {fileID: 6968520023434363797}
   - component: {fileID: 2094406590881948621}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cylinder001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1316,7 +1345,7 @@ GameObject:
   - component: {fileID: 2745943949237733501}
   - component: {fileID: 8383028081771395362}
   - component: {fileID: 1454491167345366525}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Chamfe34
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1397,7 +1426,7 @@ GameObject:
   - component: {fileID: 435407675108890220}
   - component: {fileID: 5063335416330188042}
   - component: {fileID: 5658006350478029962}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ChamferBox005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1478,7 +1507,7 @@ GameObject:
   - component: {fileID: 549655120928274493}
   - component: {fileID: 7573454437739774447}
   - component: {fileID: 3085522946465796417}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere005456
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1559,7 +1588,7 @@ GameObject:
   - component: {fileID: 9141444799599983238}
   - component: {fileID: 4289358147219088643}
   - component: {fileID: 6697527958869589727}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ch345ferCyl011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1640,7 +1669,7 @@ GameObject:
   - component: {fileID: 2868895019855855210}
   - component: {fileID: 2933213060423586859}
   - component: {fileID: 6107724332781318458}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ChamferBox003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1721,7 +1750,7 @@ GameObject:
   - component: {fileID: 646214750252896985}
   - component: {fileID: 1379225196319021822}
   - component: {fileID: 3236151363449968156}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ch34yl010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1802,7 +1831,7 @@ GameObject:
   - component: {fileID: 1734507061246885112}
   - component: {fileID: 1339663008242958527}
   - component: {fileID: 8038412981155849268}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Chamfer12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1883,7 +1912,7 @@ GameObject:
   - component: {fileID: 1573371556965618163}
   - component: {fileID: 1069280592783826091}
   - component: {fileID: 2371046003955396063}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ch12ferCyl006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1964,7 +1993,7 @@ GameObject:
   - component: {fileID: 1821651699942067658}
   - component: {fileID: 3273778966411314012}
   - component: {fileID: 1038833872265536093}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Chamfe1233
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2045,7 +2074,7 @@ GameObject:
   - component: {fileID: 1319425947697383599}
   - component: {fileID: 3635506886914103477}
   - component: {fileID: 1530779466384000240}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ChamferBox002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2126,7 +2155,7 @@ GameObject:
   - component: {fileID: 6173091964555358694}
   - component: {fileID: 5269418093682640110}
   - component: {fileID: 3968701610733277415}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ChamferCyl2134
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2209,7 +2238,7 @@ GameObject:
   - component: {fileID: 4507908637047993301}
   - component: {fileID: 3544828667106126862}
   - component: {fileID: 5667156041427123302}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ChamferCy12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2290,7 +2319,7 @@ GameObject:
   - component: {fileID: 3064942728387459314}
   - component: {fileID: 3473936098446203203}
   - component: {fileID: 5651369572617101231}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere004234
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2371,7 +2400,7 @@ GameObject:
   - component: {fileID: 1589303993794588056}
   - component: {fileID: 8412078563762903841}
   - component: {fileID: 6730033003178023906}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ChamferBox001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
