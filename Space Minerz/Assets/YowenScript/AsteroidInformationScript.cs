@@ -5,6 +5,7 @@ using UnityEngine;
 public class AsteroidInformationScript : MonoBehaviour
 {
     public AsteroidSpawnerManager spawnManager = null;
+    public int asteroidIndex = 0;
     public int asteroidHealth = 100;
 
     private void Update()
@@ -15,6 +16,9 @@ public class AsteroidInformationScript : MonoBehaviour
             {
                 spawnManager.asteroidHolder.Remove(this.gameObject);
             }
+
+            PlayerProfile.resourcesTotal[asteroidIndex] += 5;
+
             Destroy(this.gameObject);
         }
     }

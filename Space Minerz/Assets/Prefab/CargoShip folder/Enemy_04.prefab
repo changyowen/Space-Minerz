@@ -44,9 +44,10 @@ GameObject:
   - component: {fileID: 3142406222387916815}
   - component: {fileID: 1911166218}
   - component: {fileID: 1911166219}
+  - component: {fileID: 2269577448695475791}
   m_Layer: 7
   m_Name: Enemy_04
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104,7 +105,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.1
-  m_Speed: 3.5
+  m_Speed: 2.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -123,12 +124,29 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3142406222387916810}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 105b6fcb68c6ec24584e967fc61c4c2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   formation_transform: {fileID: 4198140757580581179}
+  targetPos: {x: 0, y: 0, z: 0}
+--- !u!114 &2269577448695475791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3142406222387916810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b43e76b50e6d3f94b8bcbc342b02d87e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnManager: {fileID: 0}
+  cargoSpawnManager: {fileID: 0}
+  enemyIndex: 3
+  enemyHealth: 1000
 --- !u!1 &4198140756923422301
 GameObject:
   m_ObjectHideFlags: 0

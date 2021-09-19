@@ -211,6 +211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitEffect_obj: {fileID: 1570927096764274, guid: 793995bde3840794c9852d694f43d289, type: 3}
+  beamIndex: 1
   speed: 20
   liveTime: 1
 --- !u!136 &6333241716273308797

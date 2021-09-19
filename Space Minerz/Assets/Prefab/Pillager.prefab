@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 50783215}
   - component: {fileID: 50783217}
   - component: {fileID: 50783216}
-  m_Layer: 7
+  m_Layer: 13
   m_Name: PlayerDetector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52,7 +52,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 50783214}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 75
@@ -97,7 +97,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 7
+  m_Speed: 15
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -109,7 +109,7 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &6786682358929364199
+--- !u!114 &4752012148278675334
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -118,13 +118,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 8486172729123283203}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b008988cae98c054d8ac2d0de0f09bf7, type: 3}
+  m_Script: {fileID: 11500000, guid: b43e76b50e6d3f94b8bcbc342b02d87e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gunPoint_transform: {fileID: 0}
-  laserBeam_obj: {fileID: 0}
-  shootRange: 25
-  stopRange: 10
+  spawnManager: {fileID: 0}
+  enemyIndex: 1
+  enemyHealth: 200
+--- !u!114 &8363076099320037683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8486172729123283203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5d92d95d7b433d40b44845bae495231, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gunPoint_transform: {fileID: 960957185}
+  laserBeam_obj: {fileID: 4434805902593520310, guid: 7f339d8ed2b917342bf3887db7e90fea, type: 3}
+  shootRange: 50
+  stopRange: 30
   gunRefreshTime: 0.8
 --- !u!1001 &2752597585473311747
 PrefabInstance:
@@ -135,7 +150,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6050517694061229312, guid: 66f474bb6c11afd41a472c7b76b50f2a, type: 3}
       propertyPath: m_Name
-      value: Enemy_02
+      value: Pillager
       objectReference: {fileID: 0}
     - target: {fileID: 6050517694061229312, guid: 66f474bb6c11afd41a472c7b76b50f2a, type: 3}
       propertyPath: m_IsActive

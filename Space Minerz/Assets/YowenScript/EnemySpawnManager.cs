@@ -6,6 +6,7 @@ public class EnemySpawnManager : MonoBehaviour
 {
     [Header("Reference")]
     public GameObject[] enemy_objList;
+    public GameObject path_enemy3;
     public Transform enemyHolder_transform;
 
     [Header("Data Value")]
@@ -35,7 +36,7 @@ public class EnemySpawnManager : MonoBehaviour
             enemyRefresh -= Time.deltaTime;
         }
 
-        if (enemyHolder.Count < maximumEnemy) //if havent reach max asteroid total
+        if (enemyHolder.Count < maximumEnemy) //if havent reach max enemy total
         {
             if (enemyRefresh <= 0)
                 SpawnEnemy();
@@ -47,13 +48,40 @@ public class EnemySpawnManager : MonoBehaviour
         ///GET SPAWN LOCATION
         Vector3 _spawnCor = GetSpawnLocation();
 
-        ///SPAWN ASTEROID
-        GameObject newEnemy = Instantiate(enemy_objList[regionIndex - 1], _spawnCor, Quaternion.identity) as GameObject;
-        newEnemy.transform.SetParent(enemyHolder_transform, false);
-        enemyHolder.Add(newEnemy);
 
-        ///ASSIGN DATA
-        
+        ///SPAWN ENEMY
+        if(regionIndex < 3)
+        {
+            GameObject newEnemy = Instantiate(enemy_objList[regionIndex - 1], _spawnCor, Quaternion.identity) as GameObject;
+            newEnemy.transform.SetParent(enemyHolder_transform, false);
+            enemyHolder.Add(newEnemy);
+
+            ///ASSIGN DATA
+            EnemyInformationScript enemyScript = newEnemy.GetComponent<EnemyInformationScript>();
+            if (enemyScript != null)
+            {
+                enemyScript.spawnManager = this;
+            }
+        }
+        else if(regionIndex == 3)
+        {
+            //get rotation 
+            Quaternion targetRotation = Quaternion.LookRotation(_spawnCor - Vector3.zero);
+            GameObject newEnemyPath = Instantiate(path_enemy3, _spawnCor, targetRotation) as GameObject;
+            newEnemyPath.transform.SetParent(enemyHolder_transform, false);
+            GameObject newEnemy = Instantiate(enemy_objList[2], newEnemyPath.transform.GetChild(0).position, Quaternion.identity) as GameObject;
+            newEnemy.transform.SetParent(enemyHolder_transform, false);
+            enemyHolder.Add(newEnemy);
+
+            ///ASSIGN DATA
+            EnemyInformationScript enemyScript = newEnemy.GetComponent<EnemyInformationScript>();
+            PatrolAI enemyAI = newEnemy.GetComponent<PatrolAI>();
+            if (enemyScript != null)
+            {
+                enemyScript.spawnManager = this;
+                enemyAI.path_transform = newEnemyPath.transform;
+            }
+        }
 
         ///ADD REFRESH TIME
         enemyRefresh += enemyRegenerationTime;

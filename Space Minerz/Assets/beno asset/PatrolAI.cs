@@ -14,16 +14,18 @@ public class PatrolAI : MonoBehaviour
     public float shootRange = 25f;
     public float stopRange = 10f;
     public float gunRefreshTime = 0.8f;
+    public float destRefreshTime = 8f;
 
-    bool direction = false;
+    bool direction = true;
     bool isAlert = false;
     Transform playerTransform = null;
     float gunRefresh = 0;
 
     int patrolCount = 0;
 
-    Vector3 StartPosition;
+    public Transform path_transform;
     Vector3 target;
+    float destRefresh = 0;
     Vector3[] PatrolPoint = new Vector3[5] {new Vector3(0,0,-100), new Vector3(30, 0, -50), new Vector3(-60, 0, 0), new Vector3(30, 0, 50), new Vector3(0, 0, 100) };
     private void Awake()
     {
@@ -32,7 +34,7 @@ public class PatrolAI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        StartPosition = transform.position;
+        target = path_transform.GetChild(0).position;
     }
 
     // Update is called once per frame
@@ -44,7 +46,17 @@ public class PatrolAI : MonoBehaviour
         {
             if (playerTransform != null) //check if get player Transform
             {
-                TargetingPlayer();
+                float _dist1 = Vector3.Distance(path_transform.GetChild(0).position, playerTransform.position);
+                float _dist2 = Vector3.Distance(path_transform.GetChild(3).position, playerTransform.position);
+                if(_dist1 > 75f && _dist2 > 75f)
+                {
+                    isAlert = false;
+                    LocalPatrol();
+                }
+                else
+                {
+                    TargetingPlayer();
+                }
             }
         }
         else //NOT ALERT
@@ -55,18 +67,22 @@ public class PatrolAI : MonoBehaviour
 
     void LocalPatrol()
     {
+        agent.isStopped = false;
         float dist = Vector3.Distance(transform.position, target);
-        if (dist < .2)
+
+        destRefresh += Time.deltaTime;
+        if (dist < 2 || destRefresh >= destRefreshTime)
         {
             if(direction)
             {
-                if (patrolCount < 4)
+                if (patrolCount < 3)
                 {
                     patrolCount++;
                 }
-                else if (patrolCount == 4)
+                else if (patrolCount == 3)
                 {
                     direction = false;
+                    patrolCount--;
                 }
             }
             else
@@ -78,12 +94,13 @@ public class PatrolAI : MonoBehaviour
                 else if (patrolCount == 0)
                 {
                     direction = true;
+                    patrolCount++;
                 }
             }
-
+            destRefresh = 0;
         }
 
-        target = StartPosition + PatrolPoint[patrolCount];
+        target = path_transform.GetChild(patrolCount).position;
         agent.destination = target;
     }
 
