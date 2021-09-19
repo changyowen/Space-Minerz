@@ -20,7 +20,7 @@ TagManager:
   - miningLaserCollider
   - navMesh
   - asteroidCollider
-  - 
+  - detectorCollider
   - 
   - 
   - 

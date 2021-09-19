@@ -31,6 +31,14 @@ public class ShotBehavior : MonoBehaviour {
 	private void OnCollisionEnter(Collision collision)
 	{
 		GameObject newHitEffect = Instantiate(hitEffect_obj, collision.contacts[0].point, Quaternion.identity) as GameObject;
+
+		AsteroidInformationScript asteroidScript = collision.gameObject.GetComponent<AsteroidInformationScript>();
+
+		if(asteroidScript != null)
+		{
+			asteroidScript.asteroidHealth -= 20;
+		}
+
 		Destroy(this.gameObject);
 	}
 }

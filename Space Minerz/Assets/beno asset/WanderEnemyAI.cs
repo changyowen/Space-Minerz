@@ -44,7 +44,16 @@ public class WanderEnemyAI : MonoBehaviour
         {
             if (playerTransform != null) //check if get player Transform
             {
-                TargetingPlayer();
+                float _dist = Vector3.Distance(StartPosition, playerTransform.position);
+                if(_dist > 100f)
+                {
+                    isAlert = false;
+                    randMove();
+                }
+                else
+                {
+                    TargetingPlayer();
+                }
             }
         }
         else //NOT ALERT

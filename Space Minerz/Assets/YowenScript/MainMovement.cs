@@ -29,6 +29,8 @@ public class MainMovement : MonoBehaviour
             transform.rotation = Quaternion.Euler(0f, angle, 0f);
 
             playerController.Move(direction * playerSpeed * Time.deltaTime);
+
+            transform.position = new Vector3(transform.position.x, 0f, transform.position.z);
         }
     }
 }
