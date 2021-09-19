@@ -34,7 +34,6 @@ public class AsteroidSpawnerManager : MonoBehaviour
         if(asteroidRefresh > 0)
         {
             asteroidRefresh -= Time.deltaTime;
-            Debug.Log(asteroidRefresh);
         }
 
         if (asteroidHolder.Count < maximumAsteroid) //if havent reach max asteroid total

@@ -18,6 +18,7 @@ public class WanderEnemyAI : MonoBehaviour
     bool isMove = false;
     bool isAlert = false;
     Transform playerTransform = null;
+    float destRefresh = 0;
     float gunRefresh = 0;
 
     Vector3 StartPosition;
@@ -64,10 +65,17 @@ public class WanderEnemyAI : MonoBehaviour
 
     void randMove()
     {
+        agent.isStopped = false;
         float dist = Vector3.Distance(transform.position, target);
         if (isMove)
         {
-            if(dist < .2)
+            destRefresh += Time.deltaTime;
+
+            if (dist < 1)
+            {
+                isMove = false;
+            }
+            else if(destRefresh >= 5f)
             {
                 isMove = false;
             }
@@ -78,6 +86,7 @@ public class WanderEnemyAI : MonoBehaviour
             target = StartPosition + targetPos;
             agent.destination = target;
             isMove = true;
+            destRefresh = 0;
         }
 
     }
